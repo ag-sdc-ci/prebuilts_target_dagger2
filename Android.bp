@@ -94,3 +94,12 @@ java_import {
     host_supported: true,
     prefer: true,
 }
+
+java_import {
+    name: "kotlinx_metadata_jvm",
+    jars: [
+        "src/share/kotlinx-metadata-jvm/kotlinx-metadata-jvm__kotlinx-metadata-jvm-0.9.0.jar",
+    ],
+    host_supported: true,
+    prefer: true,
+}
